@@ -16,7 +16,7 @@ public class Division
         if (b == 0)
         {
             Console.WriteLine("Error: No se puede dividir entre cero.");
-            return 0;
+            return 5; //incorrecto
         }
 
         return a / b;
